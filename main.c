@@ -9,7 +9,7 @@ int main(void)
 	int index;
 	int shift;   //allows input value for number of shift of letters up to 26
 	int option;
-    printf("1 is decryption with rotation cipher \n2 is encryption with rotation cipher \n3 is decryption with subsitution cipher \n4 is encrpytion with substitution cipher \nChoose from case 1-6: \n");
+    printf("1 is decryption with rotation cipher \n2 is encryption with rotation cipher \n3 is decryption with subsitution cipher \n4 is encrpytion with substitution cipher \nChoose from case 1-4: \n");
     fflush(stdout);
     scanf(" %d", &option);
     //getchar();    //allows use of gets rather than just scanf
