@@ -3,7 +3,7 @@
  
 int main(void)
 {
-    char message[1000], c[27], ct[1000], m;  //maximum number of code to be entered
+    char message[1000], c[1000], ct[1000], m;  //maximum number of code to be entered
 	int i;
 	int j;
 	int index;
