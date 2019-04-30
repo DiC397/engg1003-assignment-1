@@ -32,7 +32,7 @@ int main(void)
                 message[i]=message[i]-'a'+'A'; // converts lowercases to uppercases
             }
             
-    		message[i]=m;
+    		m=message[i];
     		
     		if(m>='A' && m<='Z') //checks for uppercases
     		{
@@ -63,7 +63,7 @@ int main(void)
                 message[i]=message[i]-'a'+'A'; // converts lowercases to uppercases
             }
 
-    		message[i]=m;
+    		m=message[i];
     		
     		if(m>='A' && m<='Z') //checks for uppercases
     		{
